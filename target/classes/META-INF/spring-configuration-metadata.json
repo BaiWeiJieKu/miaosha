@@ -1,0 +1,56 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "name": "redis",
+      "type": "com.imooc.miaosha.redis.RedisConfig"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "name": "redis.host",
+      "description": "主机号",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "name": "redis.password",
+      "description": "密码",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "redis.pool-max-idle",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "redis.pool-max-total",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "redis.pool-max-wait",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "redis.port",
+      "description": "端口号",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.imooc.miaosha.redis.RedisConfig",
+      "defaultValue": 0,
+      "name": "redis.timeout",
+      "description": "过期时间，秒",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
